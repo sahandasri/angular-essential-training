@@ -15,4 +15,13 @@ export class AppComponent {
     watchedOn: 1294166565384,
     isFavorite: false
   };
+  secondMediaItem = {
+    id: 2,
+    name: 'How I met your mother',
+    medium: 'Series',
+    category: 'Sitcom',
+    year: 2003,
+    watchedOn: 8726387623,
+    isFavorite: true
+  };
 }
