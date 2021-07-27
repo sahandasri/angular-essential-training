@@ -47,9 +47,11 @@ export class MediaItemListComponent {
       category: 'Action',
       year: 2015,
       watchedOn: 1457166565384,
-      isFavorite: false
+      isFavorite: true
     }
   ];
 
-  onMediaItemDelete(mediaItem) { }
+  onMediaItemDelete(mediaItem) {
+    alert(`Deleted: ${mediaItem.name}`);
+  }
 }
